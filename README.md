@@ -4,7 +4,7 @@
 ## Objetivo
 Seu objetivo neste teste é produzir uma aplicação React com Redux utilizando a [API do Flickr](https://www.flickr.com/services/api/).
 
-Você deverá uma UI com um campo de busca onde o usuário irá realizar buscas por imagens e tags do Flickr.
+Você deverá construir uma UI com um campo de busca onde o usuário irá realizar buscas por imagens e tags do Flickr (para isso, você pode usar o método [search](https://www.flickr.com/services/api/flickr.photos.search.html)).
 
 Esta busca deverá formar um grid de imagens onde, cada elemento, deverá exibir:
 
@@ -57,7 +57,7 @@ Os seguintes pontos serão avaliados em seu projeto:
 Você vai conseguir alguns pontos extras se:
 
 * Sua aplicação contiver um README com detalhes de como devemos fazer para instalar e rodar seu APP em nosso ambiente localhost.
-* Se você fizer bom uso do browser (como botões voltar/avançar ou, por exemplo, já enviar uma URL com uma busca e a tela já carregar com os resultados desejados (deep link).
+* Se você fizer bom uso do browser, como botões voltar/avançar ou, por exemplo, enviar uma URL com parâmetros de busca/tag e a tela carregar já com os resultados desejados (deep link).
 * O isolamento e independência entre os Containers, apesar da necessidade de um conversar bem com o outro.
 * Nós adoramos testes unitários, estruturais (que tal Snapshots?) e de integração. Mas atenção: não é necessário fazer um coverage exagerado: queremos avaliar sua familiaridade com o assunto.
 
